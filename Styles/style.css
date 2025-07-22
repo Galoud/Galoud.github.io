@@ -7,6 +7,7 @@ header{
 }
 
 .section1{
+    display:block ;
     overflow: hidden;
     width: 10px;
     height:10px;
