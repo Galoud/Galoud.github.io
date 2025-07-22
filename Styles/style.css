@@ -3,5 +3,6 @@
     size-adjust: 10%;
 }
 body.section1{
-    width: 50%;
+    width: 50px;
+    height: 20px;
 }
