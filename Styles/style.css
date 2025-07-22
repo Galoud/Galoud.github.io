@@ -1,8 +1,9 @@
 header{
     font-family : Montserrat;
-    size-adjust: 10%;
+    
 }
 .section1{
+    background-color: darkgray;
     max-width:auto;
 
     max-height:20%;
