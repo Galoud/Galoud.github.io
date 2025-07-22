@@ -3,21 +3,17 @@ body{
 }
 header{
     font-family : sans-serif;
-    
+    text-align: center;
 }
 
 .section1{
     
     overflow: hidden;
-    max-width: 100%;
-    max-height:100%;
     border: 1px solid #333333;
 }
 .section1 img{
     max-height: 100%;
-    height: auto;
     width:auto;
     display: block;
-    margin: 10px auto;
-    padding: 2px 2px 2px 2px;
+    margin: 10px auto 10px auto;
 }
