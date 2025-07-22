@@ -6,14 +6,8 @@ body{
     background-color: darkgray;
 }
 .section1{
-    max-width:50px;
-    max-height: 50px;
     
-}
-section1{
-    height:10%;
-    max-width:auto;
-    max-height: 50px;
-
+    max-width:25px;
+    max-height: 25px;
     
 }
