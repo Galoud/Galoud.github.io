@@ -7,7 +7,7 @@ header{
 }
 
 .section1{
-    display:block ;
+    display:list-item ;
     overflow: hidden;
     width: 20%;
     max-height:30%;
