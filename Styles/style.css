@@ -9,7 +9,7 @@ header{
 .section1{
     display:block ;
     overflow: hidden;
-    width: 10px;
-    height:10px;
+    width: 20%;
+    max-height:30%;
     border: 1px solid #333333;
 }
