@@ -5,4 +5,7 @@ main{
 section1{
     width: 10%;
     height: 20%;
+    border-image: auto;
+    max-width:fit-content;
+    min-width: none;
 }
