@@ -3,10 +3,7 @@ main{
     size-adjust: 10%;
 }
 section1{
-    block-size: 10%;
-    width: 10%;
-    height: 20%;
-    border-image: auto;
-    
-    min-width: none;
+    max-width:auto;
+
+    height:10%;
 }
