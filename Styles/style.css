@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 header{
     font-family : sans-serif;
@@ -7,13 +7,53 @@ header{
 }
 
 .section1{
-    
-    overflow: hidden;
-    border: 1px solid #333333;
+    display: block;
+    scroll-snap-type: y mandatory ;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height:100vh;
+    overflow: hidden scroll;
+    padding-left: 10px;
 }
 .section1 img{
-    max-width:20%;
-    height:auto;
-    display: flexbox;
+    position:relative;
+    max-height:90vh;
+    min-height: 60vh;
+    max-width:90%;
+    min-width: none;
+    display: block;
     margin: 10px auto 10px auto;
+    float:center;
+}
+
+
+.diapo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    background-color: beige;
+    
+}
+
+.w4-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.bt-left {
+    left: 20px;
+}
+
+.bt-right {
+    right: 20px;
 }
