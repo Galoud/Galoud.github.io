@@ -6,9 +6,8 @@ body{
     background-color: darkgray;
 }
 .section1{
-    height:1%;
-    max-width:auto;
-
+    max-width:50px;
+    max-height: 50px;
     
 }
 section1{
