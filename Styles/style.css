@@ -12,8 +12,8 @@ header{
     border: 1px solid #333333;
 }
 .section1 img{
-    max-width:50%;
-    height:auto;
+    max-height:40%;
+    width:auto;
     display: block;
     margin: 10px auto 10px auto;
 }
