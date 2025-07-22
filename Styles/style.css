@@ -14,6 +14,6 @@ header{
 .section1 img{
     max-width:20%;
     height:auto;
-    display: block;
+    display: inline-flexbox;
     margin: 10px auto 10px auto;
 }
