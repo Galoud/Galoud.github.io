@@ -12,48 +12,50 @@ header{
     scroll-snap-align: center;
     scroll-behavior: smooth;
     height:100vh;
-    overflow: hidden scroll;
+    overflow: hidden;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .section1 img{
+    flex-direction:column;
     position:relative;
     max-height:90vh;
     min-height: 60vh;
     max-width:90%;
     min-width: none;
     display: block;
-    margin: 10px auto 10px auto;
+    margin: 5vh 0vh 5vh 0vh;
     float:center;
 }
 
 
 .diapo {
-    position: relative;
+    position:relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
     max-width: 90%;
-    background-color: beige;
+    
     
 }
 
 .w4-button {
-    position: fixed;
+    position: sticky;
     top: 50%;
     transform: translateY(-50%);
-    background-color: blanchedalmond;
     border: none;
     font-size: 3rem;
     cursor: pointer;
     z-index: 1;
-    padding: 10px;
+    
     border-radius: 5%;
 }
 
 .bt-left {
-    left: 20px;
+    left: 10px;
 }
 
 .bt-right {
-    right: 20px;
+    right: 10px;
 }
