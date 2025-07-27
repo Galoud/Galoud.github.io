@@ -7,31 +7,34 @@ header{
 }
 
 .section1{
-    display: block;
-    scroll-snap-type: y mandatory ;
-    scroll-snap-align: center;
-    scroll-behavior: smooth;
+    display:grid;
+    grid-template-areas: 
+    "A B B"
+    "A C C"
+    "A D";
+    grid-gap: 1px;
+
     height:100vh;
     overflow: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
+    flex-grow:inherit;
+    
 }
 .section1 img{
     flex-direction:column;
     position:relative;
-    max-height:90vh;
-    min-height: 60vh;
-    max-width:90%;
+    max-height:100vh;
+    min-height: 60vh;   
+    max-width:100%;
     min-width: none;
-    display: block;
-    margin: 5vh 0vh 5vh 0vh;
-    float:center;
+    display:inline;
+    align-content: center;
+    place-content:inherit;
 }
 
 
 .diapo {
     position:relative;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     align-self: center;
@@ -41,7 +44,7 @@ header{
 }
 
 .w4-button {
-    position: sticky;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     border: none;
